@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagens/logo-verde.png">
     <link rel="stylesheet" href="Principal-colorido.css"/>
     <title>Principal</title>
 </head>
 <body>
     <!--Aqui nós temos o nosso cabeçalho, e cada div é um item-->
     <header>
-        <img src="imagens/logo-branca.png" title="Logo" 
-        width="8.5%" height="8.5%">
+        <a href="Principal.html" id="header">
+            <img src="imagens/logo-branca.png" title="Logo" width="100%">
+        </a>       
         <div class="header-item">
             <a id="cabecalho" href="login.html">Login</a>
         </div>
@@ -29,33 +31,23 @@
     </h1>
     <div id="abrangent">
         <main>
-            <div class="box">
-                <a href="Linguagens.html">
-                    <img src="imagens/Linguagens.png" width="50%">
-                    Linguagens
-                </a>
+            <div class="box" onclick="(window.location='Linguagens.html')">
+                <img src="imagens/Linguagens.png" width="60%">
+                Português
             </div>
-            
-            <div class="box">
-                <a href="Matematica.html">
-                    <img src="imagens/Esquadro.png" width=" 50%"><br>
-                    Matemática
-                </a>
+            <div class="box" onclick="(window.location='Matematica.html')">
+                <img src="imagens/Esquadro.png" width="59.5%">
+                Matemática
             </div>
-            <div class="box">   
-                <a href="Historia.html">
-                    <img src="imagens/Ampulheta.png" width=40%><br>
-                    História
-                </a>
+            <div class="box" onclick="(window.location='Historia.html')">   
+                <img src="imagens/Ampulheta.png" width="46.5%"><br>
+                História
             </div>
-            <div class="box">
-                <a href="Geografia.html">
-                    <img src="imagens/geografia.png" width="51%"><br>
-                    Geografia
-                </a>
+            <div class="box" onclick="(window.location='Geografia.html')">
+                <img src="imagens/geografia.png" width="60%"><br>
+                Geografia
             </div>
         </main>
-    </div id="abrangent">
-    <script src="principal.js"></script>
+    </div>
 </body>
 </html>

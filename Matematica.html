@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagens/logo-verde.png">
     <link rel="stylesheet" href="Principal-colorido.css"/>
     <title>conteúdo</title>
 </head>
 <body>
     <!--Aqui nós temos o nosso cabeçalho, e cada div é um item-->
     <header>
-        <img src="imagens/logo-branca.png" title="Logo" 
-        width="8.5%" height="8.5%">
+        <a href="Principal.html" id="header">
+            <img src="imagens/logo-branca.png" title="Logo" width="100%">
+        </a>
         <div class="header-item">
             <a id="cabecalho" href="login.html">Login</a>
         </div>
@@ -27,14 +29,21 @@
     <h1>SUCCESS STUDENT</h1>
     <div id="abrangent">
         <main>
-            <div class="box">
-                <a href="Resumo-adicao.html">Adição</a>
+            <div class="box" onclick="(window.location='Adicao.html')">
+                <img src="imagens/Adição.png" width="60%"><br>
+                Adição
             </div>
-            <div class="box">Subtração</div>
-            <div class="box">Multiplicação</div>
-            <div class="box">Divisão</div>
+            <div class="box" onclick="(window.location='Subtracao.html')">
+                <img src="imagens/Subtração.png" width="103.8%"><br>
+                Subtração
+            </div>
+            <div class="box" onclick="(window.location='Multiplicacao.html')">
+                <img src="imagens/Multiplicação.png" width="60%"><br>
+                Multiplicação
+            </div>
             <div class="box">
-                <a href="registro.resumo.html">+</a>
+                <img src="imagens/divisão.png" width="100%"><br>
+                Divisão
             </div>
         </main>
     </div>
